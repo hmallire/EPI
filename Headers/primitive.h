@@ -57,6 +57,8 @@ namespace Primitive {
 
 	void FindOrientation(Point p1, Point p2, Point p3, ORIENTATION* ortn);
 
+	void RectangleIntersection(Point p1, Point p2, Point p3, Point p4);
+
 }	//namespace Primitive
 
 #endif // !PRIMITIVE_H_

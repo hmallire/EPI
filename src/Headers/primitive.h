@@ -17,6 +17,11 @@ namespace Primitive
 		int y;
 	};
 
+	struct Rectangle
+	{
+		int x, y, l, b;
+	};
+
 	//Orientation of given three points
 	enum ORIENTATION
 	{
@@ -60,6 +65,10 @@ namespace Primitive
 	void RectangleIntersection(Point p1, Point p2, Point p3, Point p4, Point* a, Point* b, bool* intersect);
 
 	void isIntersect(Point l1, Point r1, Point l2, Point r2, bool* res);
+
+	void RectangleIntersection2(Rectangle R1, Rectangle R2, Rectangle* R3);
+
+	void isIntersect2(Rectangle R1, Rectangle R2, bool* intersect);
 
 }	//namespace Primitive
 

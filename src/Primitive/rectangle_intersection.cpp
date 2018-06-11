@@ -67,6 +67,29 @@ namespace Primitive
 
 	}
 
+	void RectangleIntersection2(Rectangle R1, Rectangle R2, Rectangle* R3)
+	{
+		bool intersect = false;
+		isIntersect2(R1, R2, &intersect);
+		if(intersect)
+		{
+			R3->x = R1.x > R2.x ? R1.x : R2.x;
+			R3->y = R1.y > R2.y ? R1.y : R2.y;
+			R3->l = R1.l + R2.l - 
+			((R1.x + R1.l > R2.x + R2.l ? R1.x + R1.l : R2.x + R2.l) - (R1.x < R2.x ? R1.x : R2.x));
+			R3->b = R1.b + R2.b - 
+			((R1.y + R1.b > R2.y + R2.b ? R1.y + R1.b : R2.y + R2.b) - (R1.y < R2.y ? R1.y : R2.y));
+		}
+		else
+		{
+			R3->x = 0;
+			R3->y = 0;
+			R3->l = -1;
+			R3->b = -1;
+		}
+
+	}
+
 	void isIntersect(Point l1, Point r1, Point l2, Point r2, bool* res)
 	{
 		if(r1.x < l2.x || r2.x < l1.x)
@@ -91,5 +114,12 @@ namespace Primitive
 
 		*res = true;
 		return;
+	}
+
+	void isIntersect2(Rectangle R1, Rectangle R2, bool* intersect)
+	{
+		*intersect = R1.x <= R2.x + R2.l && R1.x + R1.l >= R2.x && 
+		R1.y <= R2.y + R2.b && R1.y + R1.b >= R2.y;
+
 	}
 }

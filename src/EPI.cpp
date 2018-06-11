@@ -116,6 +116,19 @@ int main()
 		cout << "The rectangles don't intersect." << endl;
 	}
 
+	Primitive::Rectangle R1 = { 1, 1, 2, 3}, R2 = { 2, 2, 4, 5}, R3 = { 0, 0 ,-1, -1};
+	Primitive::RectangleIntersection2(R1, R2, &R3);
+
+	if(R3.l == -1)
+	{
+		cout << "Rectangles don't intersect" << endl;
+	}
+	else
+	{
+		cout << "Rectangle formed by intersection is:  ";
+		cout << R3.x << ' ' << R3.y << ' ' << R3.l << ' ' << R3.b << endl;
+	}
+
 	return 0;
 }
 

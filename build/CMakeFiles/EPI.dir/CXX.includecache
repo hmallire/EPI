@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/harsha/GITHUB/EPI/src/EPI.cpp
-EPI.h
-/home/harsha/GITHUB/EPI/src/EPI.h
-Headers/primitive.h
-/home/harsha/GITHUB/EPI/src/Headers/primitive.h
-
 /home/harsha/GITHUB/EPI/src/EPI.h
 iostream
 -
@@ -31,4 +25,8 @@ iostream
 -
 random
 -
+
+/home/harsha/GITHUB/EPI/src/Primitive/rectangle_intersection.cpp
+../Headers/primitive.h
+/home/harsha/GITHUB/EPI/src/Headers/primitive.h
 

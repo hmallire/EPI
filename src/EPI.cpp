@@ -101,7 +101,7 @@ int main()
 	Primitive::FindOrientation(p1, p2, p3, &ortn);
 	cout << "Orientation of given points is " << ortn << endl;
 
-	Primitive::Point l1 = { 0, 4 }, r1 = { 4, 0 }, l2 = { 0, 4 }, r2 = { 4, 0}, l3 = { 0, 0}, r3 = { 0, 0};
+	Primitive::Point l1 = { 0, 4 }, r1 = { 4, 0 }, l2 = { 6, 6 }, r2 = { 8, 4}, l3 = { 0, 0}, r3 = { 0, 0};
 	bool intersection = false;
 	RectangleIntersection(l1, r1, l2, r2, &l3, &r3, &intersection);
 	if(intersection)

@@ -129,6 +129,7 @@ int main()
 		cout << R3.x << ' ' << R3.y << ' ' << R3.l << ' ' << R3.b << endl;
 	}
 
+	cout << "Size of ull is " << sizeof(EPI::ull) <<endl;
 	return 0;
 }
 

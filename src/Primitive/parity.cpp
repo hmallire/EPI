@@ -33,7 +33,7 @@ namespace Primitive
 		*result = false;
 		const int kWordSize = 16;
 		const int kBitMask = 0xFFFF;
-		int size = pow(2, 16) + 1;
+		int size = pow(2, 16) - 1;
 		bool *precomputed_parity = new bool[size];
 		// do a memset here
 		for (int i = 0; i < size; i++) 
@@ -42,9 +42,9 @@ namespace Primitive
 		}
 
 		*result ^= precomputed_parity[x&kBitMask] ^
+			precomputed_parity[(x >> kWordSize )&kBitMask] ^
 			precomputed_parity[(x >> (kWordSize * 2))&kBitMask] ^
-			precomputed_parity[(x >> (kWordSize * 3))&kBitMask] ^
-			precomputed_parity[(x >> (kWordSize * 4))&kBitMask];
+			precomputed_parity[(x >> (kWordSize * 3))&kBitMask];
 
 		delete precomputed_parity;
 	}

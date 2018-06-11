@@ -29,6 +29,4 @@
 # Executables
 *.exe
 *.out
-*.app
-
-/build/*
+*.apps

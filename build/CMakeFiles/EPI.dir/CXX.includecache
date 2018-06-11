@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/harsha/GITHUB/EPI/src/EPI.cpp
+EPI.h
+/home/harsha/GITHUB/EPI/src/EPI.h
+Headers/primitive.h
+/home/harsha/GITHUB/EPI/src/Headers/primitive.h
+
+/home/harsha/GITHUB/EPI/src/EPI.h
+iostream
+-
+vector
+-
+cmath
+-
+stdexcept
+-
+
+/home/harsha/GITHUB/EPI/src/Headers/primitive.h
+../EPI.h
+/home/harsha/GITHUB/EPI/src/EPI.h
+cmath
+-
+iostream
+-
+random
+-
+

@@ -1,4 +1,3 @@
-#pragma once
 #ifndef PRIMITIVE_H_
 #define PRIMITIVE_H_
 
@@ -8,7 +7,8 @@
 #include <iostream>
 #include <random>
 
-namespace Primitive {
+namespace Primitive 
+{
 	
 	//Representing a point in 2D space
 	struct Point
@@ -57,7 +57,9 @@ namespace Primitive {
 
 	void FindOrientation(Point p1, Point p2, Point p3, ORIENTATION* ortn);
 
-	void RectangleIntersection(Point p1, Point p2, Point p3, Point p4);
+	void RectangleIntersection(Point p1, Point p2, Point p3, Point p4, Point* a, Point* b, bool* intersect);
+
+	void isIntersect(Point l1, Point r1, Point l2, Point r2, bool* res);
 
 }	//namespace Primitive
 

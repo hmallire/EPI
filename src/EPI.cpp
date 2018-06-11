@@ -13,7 +13,11 @@ int main()
 	EPI::ull x;
 	cout << "Enter a number: ";
 	cin >> x;
-	
+
+	/*int y;
+	cout << "Enter another number: ";
+	cin >> y;*/
+
 	short ans = 0;
 	short ans2 = 0;
 	bool Parity = false;
@@ -75,9 +79,9 @@ int main()
 	Primitive::Power(2, 3, &power);
 	cout << "Power(3,4) is " << power << endl;
 	
-	int reverseDigit = 0;
-	Primitive::ReverseDigits(345567, &reverseDigit);
-	cout << "reverseDigits of 345567 is " << reverseDigit << endl;
+	int reversedDigit = 0;
+	Primitive::ReverseDigits(x, &reversedDigit);
+	cout << "reversedDigits of " << x << " is " << reversedDigit << endl;
 
 	bool isPalindrome = false;
 	Primitive::IsPalindromic(x, &isPalindrome);
@@ -97,8 +101,20 @@ int main()
 	Primitive::FindOrientation(p1, p2, p3, &ortn);
 	cout << "Orientation of given points is " << ortn << endl;
 
-	Primitive::Point l1 = { 0, 4 }, r1 = { 4, 0 }, l2 = { 4, 4 }, r2 = { 6, 2};
-	
+	Primitive::Point l1 = { 0, 4 }, r1 = { 4, 0 }, l2 = { 0, 4 }, r2 = { 4, 0}, l3 = { 0, 0}, r3 = { 0, 0};
+	bool intersection = false;
+	RectangleIntersection(l1, r1, l2, r2, &l3, &r3, &intersection);
+	if(intersection)
+	{
+		cout << "Two rectangles intersect.";
+
+		cout << "The rectangle formed by intersection is: " << "{" << l3.x << "," << l3.y << "}" 
+		<< ", {" << r3.x << "," << r3.y << "}" << endl;
+	}
+	else
+	{
+		cout << "The rectangles don't intersect." << endl;
+	}
 
 	return 0;
 }

@@ -4,9 +4,11 @@ namespace Primitive
 {
 	// Computes the parity of 64 bit number
 	// O(n) where n is the word size
-	void Parity(EPI::ull x, bool* result) {
+	void Parity(EPI::ull x, bool* result) 
+	{
 		*result = 0;
-		while (x) {
+		while (x) 
+		{
 			*result ^= (x & 1);
 			x >>= 1;
 		}
@@ -14,9 +16,11 @@ namespace Primitive
 
 	// Computes the parity of 64 bit number
 	// O(k) where k is #bits set to 1 in the word
-	void Parity_2(EPI::ull x, bool* result) {
+	void Parity_2(EPI::ull x, bool* result) 
+	{
 		*result = 0;
-		while (x) {
+		while (x) 
+		{
 			*result ^= 1;
 			x &= (x - 1); // drops the lowest set bit of x
 		}
@@ -24,14 +28,16 @@ namespace Primitive
 
 	// Computes parity of the word using lookup table
 	//O(n/L) where n is word size and L is lookup table word length O(64/16)
-	void Parity_3(EPI::ull x, bool* result) {
+	void Parity_3(EPI::ull x, bool* result) 
+	{
 		*result = false;
 		const int kWordSize = 16;
 		const int kBitMask = 0xFFFF;
 		int size = pow(2, 16) + 1;
 		bool *precomputed_parity = new bool[size];
 		// do a memset here
-		for (int i = 0; i < size; i++) {
+		for (int i = 0; i < size; i++) 
+		{
 			Parity_4(i, precomputed_parity + i);
 		}
 
@@ -45,7 +51,8 @@ namespace Primitive
 
 	//Computes parity of the word using lookup table
 	//O(log(n)) where n is word size
-	void Parity_4(EPI::ull x, bool* result) {
+	void Parity_4(EPI::ull x, bool* result) 
+	{
 		*result = false;
 		x ^= (x >> 32);
 		x ^= (x >> 16);

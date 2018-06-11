@@ -1,12 +1,13 @@
-#pragma once
 #ifndef EPI_H_
 #define EPI_H_
 
 #include <iostream>
 #include <vector>
 #include <cmath>
+#include <stdexcept>
 
-namespace EPI {
+namespace EPI 
+{
 	typedef unsigned long long ull;
 }
 

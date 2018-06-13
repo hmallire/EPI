@@ -13,6 +13,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o"
   "CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o"
   "CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o"
+  "CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o"
+  "CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o"
   "EPI.pdb"
   "EPI"
 )

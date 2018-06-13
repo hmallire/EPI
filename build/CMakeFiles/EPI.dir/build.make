@@ -371,6 +371,52 @@ CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o.provides: CMakeFiles/EPI.d
 
 CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o.provides.build: CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o
 
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o: CMakeFiles/EPI.dir/flags.make
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o: ../src/Arrays/reorder_even_odd.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o -c /home/harsha/GITHUB/EPI/src/Arrays/reorder_even_odd.cpp
+
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/harsha/GITHUB/EPI/src/Arrays/reorder_even_odd.cpp > CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.i
+
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/harsha/GITHUB/EPI/src/Arrays/reorder_even_odd.cpp -o CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.s
+
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.requires:
+.PHONY : CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.requires
+
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.provides: CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.provides.build
+.PHONY : CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.provides
+
+CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.provides.build: CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o
+
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o: CMakeFiles/EPI.dir/flags.make
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o: ../src/Arrays/DNFP.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o -c /home/harsha/GITHUB/EPI/src/Arrays/DNFP.cpp
+
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/harsha/GITHUB/EPI/src/Arrays/DNFP.cpp > CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.i
+
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/harsha/GITHUB/EPI/src/Arrays/DNFP.cpp -o CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.s
+
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.requires:
+.PHONY : CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.requires
+
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.provides: CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.provides.build
+.PHONY : CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.provides
+
+CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.provides.build: CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o
+
 # Object files for target EPI
 EPI_OBJECTS = \
 "CMakeFiles/EPI.dir/src/EPI.cpp.o" \
@@ -386,7 +432,9 @@ EPI_OBJECTS = \
 "CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o" \
 "CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o" \
 "CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o" \
-"CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o"
+"CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o" \
+"CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o" \
+"CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o"
 
 # External object files for target EPI
 EPI_EXTERNAL_OBJECTS =
@@ -405,6 +453,8 @@ EPI: CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o
+EPI: CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o
+EPI: CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o
 EPI: CMakeFiles/EPI.dir/build.make
 EPI: CMakeFiles/EPI.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable EPI"
@@ -428,6 +478,8 @@ CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o.requires
+CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o.requires
+CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o.requires
 .PHONY : CMakeFiles/EPI.dir/requires
 
 CMakeFiles/EPI.dir/clean:

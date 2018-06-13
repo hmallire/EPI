@@ -3,7 +3,7 @@
 
 #include "EPI.h"
 #include "Headers/primitive.h"
-
+#include "Headers/arrays.h"
 
 
 using namespace std;
@@ -129,7 +129,26 @@ int main()
 		cout << R3.x << ' ' << R3.y << ' ' << R3.l << ' ' << R3.b << endl;
 	}
 
-	cout << "Size of ull is " << sizeof(EPI::ull) <<endl;
+	//cout << "Size of ull is " << sizeof(EPI::ull) <<endl;
+
+	vector<int> arr(10);
+	cout << "Enter 10 numbers: ";
+
+	for( int i = 0;i < 10; i++)
+	{
+		cin >> arr[i];
+	}
+
+	Arrays::ReorderEvenOdd(arr);
+	//cout << endl;
+	cout << "Ordered 10 numbers are: ";
+	for( int i = 0;i < 10; i++)
+	{
+		cout << arr[i] << " ";
+	}
+
+	cout << endl;
+
 	return 0;
 }
 

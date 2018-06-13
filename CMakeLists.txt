@@ -17,12 +17,17 @@ set (SOURCE_FILES
 	src/Primitive/reverse_digits.cpp
 	src/Primitive/swap_bits.cpp
 	src/Primitive/uniform_random.cpp
+	src/Arrays/reorder_even_odd.cpp
+	src/Arrays/DNFP.cpp
+	
 	)
 
 include_directories(Headers)
 #include_directories(${CMAKE_CURRENT_SOURCE_DIRECTORY})
-#file(GLOB SOURCE_FILES "src/*.cpp")
-#file(GLOB SOURCE_FILES "*.cpp")
+#file(GLOB SOURCE_FILES "src/*.cpp", "src/Primitive/*.cpp")
+#file(GLOB SOURCE_FILES "src/Utilities/*.cpp")
+#file(GLOB SOURCE_FILES "src/Arrays/*.cpp")
 set(CMAKE_CXX_FLAGS "-std=c++11")
 message("CMAKE_CXX_FLAGS are ${CMAKE_CXX_FLAGS}")
+message("directories are ${SOURCE_FILES}")
 add_executable(EPI ${SOURCE_FILES})

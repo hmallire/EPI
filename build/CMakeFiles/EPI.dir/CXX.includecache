@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/harsha/GITHUB/EPI/src/EPI.cpp
+EPI.h
+/home/harsha/GITHUB/EPI/src/EPI.h
+Headers/primitive.h
+/home/harsha/GITHUB/EPI/src/Headers/primitive.h
+Headers/arrays.h
+/home/harsha/GITHUB/EPI/src/Headers/arrays.h
+
 /home/harsha/GITHUB/EPI/src/EPI.h
 iostream
 -
@@ -14,6 +22,18 @@ vector
 cmath
 -
 stdexcept
+-
+
+/home/harsha/GITHUB/EPI/src/Headers/arrays.h
+../EPI.h
+/home/harsha/GITHUB/EPI/src/EPI.h
+cmath
+-
+iostream
+-
+random
+-
+vector
 -
 
 /home/harsha/GITHUB/EPI/src/Headers/primitive.h
@@ -25,8 +45,4 @@ iostream
 -
 random
 -
-
-/home/harsha/GITHUB/EPI/src/Primitive/parity.cpp
-../Headers/primitive.h
-/home/harsha/GITHUB/EPI/src/Headers/primitive.h
 

@@ -139,12 +139,29 @@ int main()
 		cin >> arr[i];
 	}
 
-	Arrays::ReorderEvenOdd(arr);
+	Arrays::EvenOdd(arr);
 	//cout << endl;
 	cout << "Ordered 10 numbers are: ";
 	for( int i = 0;i < 10; i++)
 	{
 		cout << arr[i] << " ";
+	}
+
+	cout << endl;
+
+	vector<int> arr1(10);
+	cout << "Enter 10 numbers: ";
+
+	for( int i = 0;i < 10; i++)
+	{
+		cin >> arr1[i];
+	}
+
+	Arrays::DNFP(arr1, 4);
+	cout << "Sorted 10 numbers are: ";
+	for( int i = 0;i < 10; i++)
+	{
+		cout << arr1[i] << " ";
 	}
 
 	cout << endl;

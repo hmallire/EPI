@@ -17,8 +17,8 @@ set (SOURCE_FILES
 	src/Primitive/reverse_digits.cpp
 	src/Primitive/swap_bits.cpp
 	src/Primitive/uniform_random.cpp
-	src/Arrays/reorder_even_odd.cpp
-	src/Arrays/DNFP.cpp
+	src/Arrays/even_odd.cpp
+	src/Arrays/dnfp.cpp
 	
 	)
 

@@ -11,7 +11,9 @@
 namespace Arrays
 {
 
-	void ReorderEvenOdd(std::vector<int>& arr);
+	void EvenOdd(std::vector<int>& arr);
+
+	void DNFP(std::vector<int>& arr, const int index);
 
 } // namespace Arrays
 

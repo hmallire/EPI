@@ -111,53 +111,53 @@ EPI/fast:
 	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/build
 .PHONY : EPI/fast
 
-src/Arrays/DNFP.o: src/Arrays/DNFP.cpp.o
-.PHONY : src/Arrays/DNFP.o
+src/Arrays/dnfp.o: src/Arrays/dnfp.cpp.o
+.PHONY : src/Arrays/dnfp.o
 
 # target to build an object file
-src/Arrays/DNFP.cpp.o:
-	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.o
-.PHONY : src/Arrays/DNFP.cpp.o
+src/Arrays/dnfp.cpp.o:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o
+.PHONY : src/Arrays/dnfp.cpp.o
 
-src/Arrays/DNFP.i: src/Arrays/DNFP.cpp.i
-.PHONY : src/Arrays/DNFP.i
+src/Arrays/dnfp.i: src/Arrays/dnfp.cpp.i
+.PHONY : src/Arrays/dnfp.i
 
 # target to preprocess a source file
-src/Arrays/DNFP.cpp.i:
-	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.i
-.PHONY : src/Arrays/DNFP.cpp.i
+src/Arrays/dnfp.cpp.i:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.i
+.PHONY : src/Arrays/dnfp.cpp.i
 
-src/Arrays/DNFP.s: src/Arrays/DNFP.cpp.s
-.PHONY : src/Arrays/DNFP.s
+src/Arrays/dnfp.s: src/Arrays/dnfp.cpp.s
+.PHONY : src/Arrays/dnfp.s
 
 # target to generate assembly for a file
-src/Arrays/DNFP.cpp.s:
-	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/DNFP.cpp.s
-.PHONY : src/Arrays/DNFP.cpp.s
+src/Arrays/dnfp.cpp.s:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.s
+.PHONY : src/Arrays/dnfp.cpp.s
 
-src/Arrays/reorder_even_odd.o: src/Arrays/reorder_even_odd.cpp.o
-.PHONY : src/Arrays/reorder_even_odd.o
+src/Arrays/even_odd.o: src/Arrays/even_odd.cpp.o
+.PHONY : src/Arrays/even_odd.o
 
 # target to build an object file
-src/Arrays/reorder_even_odd.cpp.o:
-	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.o
-.PHONY : src/Arrays/reorder_even_odd.cpp.o
+src/Arrays/even_odd.cpp.o:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o
+.PHONY : src/Arrays/even_odd.cpp.o
 
-src/Arrays/reorder_even_odd.i: src/Arrays/reorder_even_odd.cpp.i
-.PHONY : src/Arrays/reorder_even_odd.i
+src/Arrays/even_odd.i: src/Arrays/even_odd.cpp.i
+.PHONY : src/Arrays/even_odd.i
 
 # target to preprocess a source file
-src/Arrays/reorder_even_odd.cpp.i:
-	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.i
-.PHONY : src/Arrays/reorder_even_odd.cpp.i
+src/Arrays/even_odd.cpp.i:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.i
+.PHONY : src/Arrays/even_odd.cpp.i
 
-src/Arrays/reorder_even_odd.s: src/Arrays/reorder_even_odd.cpp.s
-.PHONY : src/Arrays/reorder_even_odd.s
+src/Arrays/even_odd.s: src/Arrays/even_odd.cpp.s
+.PHONY : src/Arrays/even_odd.s
 
 # target to generate assembly for a file
-src/Arrays/reorder_even_odd.cpp.s:
-	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/reorder_even_odd.cpp.s
-.PHONY : src/Arrays/reorder_even_odd.cpp.s
+src/Arrays/even_odd.cpp.s:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.s
+.PHONY : src/Arrays/even_odd.cpp.s
 
 src/EPI.o: src/EPI.cpp.o
 .PHONY : src/EPI.o
@@ -504,12 +504,12 @@ help:
 	@echo "... EPI"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... src/Arrays/DNFP.o"
-	@echo "... src/Arrays/DNFP.i"
-	@echo "... src/Arrays/DNFP.s"
-	@echo "... src/Arrays/reorder_even_odd.o"
-	@echo "... src/Arrays/reorder_even_odd.i"
-	@echo "... src/Arrays/reorder_even_odd.s"
+	@echo "... src/Arrays/dnfp.o"
+	@echo "... src/Arrays/dnfp.i"
+	@echo "... src/Arrays/dnfp.s"
+	@echo "... src/Arrays/even_odd.o"
+	@echo "... src/Arrays/even_odd.i"
+	@echo "... src/Arrays/even_odd.s"
 	@echo "... src/EPI.o"
 	@echo "... src/EPI.i"
 	@echo "... src/EPI.s"

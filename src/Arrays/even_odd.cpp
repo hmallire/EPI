@@ -3,7 +3,7 @@
 
 namespace Arrays
 {
-	void ReorderEvenOdd(std::vector<int>& arr)
+	void EvenOdd(std::vector<int>& arr)
 	{
 		int nxt_even = 0;
 		int nxt_odd = arr.size() - 1;

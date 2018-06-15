@@ -13,6 +13,8 @@ Headers/primitive.h
 /home/harsha/GITHUB/EPI/src/Headers/primitive.h
 Headers/arrays.h
 /home/harsha/GITHUB/EPI/src/Headers/arrays.h
+Headers/utilities.h
+/home/harsha/GITHUB/EPI/src/Headers/utilities.h
 
 /home/harsha/GITHUB/EPI/src/EPI.h
 iostream
@@ -22,6 +24,12 @@ vector
 cmath
 -
 stdexcept
+-
+iterator
+-
+string
+-
+sstream
 -
 
 /home/harsha/GITHUB/EPI/src/Headers/arrays.h
@@ -45,4 +53,20 @@ iostream
 -
 random
 -
+
+/home/harsha/GITHUB/EPI/src/Headers/utilities.h
+../EPI.h
+/home/harsha/GITHUB/EPI/src/EPI.h
+cmath
+-
+iostream
+-
+random
+-
+limits
+-
+
+/home/harsha/GITHUB/EPI/src/Utilities/get_int_array.cpp
+../Headers/utilities.h
+/home/harsha/GITHUB/EPI/src/Headers/utilities.h
 

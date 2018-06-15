@@ -15,6 +15,7 @@ CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/EPI.cpp
 CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/EPI.h
 CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/Headers/arrays.h
 CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/Headers/primitive.h
+CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/Headers/utilities.h
 
 CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o: ../src/EPI.h
 CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o: ../src/Headers/primitive.h
@@ -67,4 +68,8 @@ CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o: ../src/Primitive/swap_bits.cpp
 CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o: ../src/EPI.h
 CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o: ../src/Headers/primitive.h
 CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o: ../src/Primitive/uniform_random.cpp
+
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o: ../src/EPI.h
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o: ../src/Headers/utilities.h
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o: ../src/Utilities/get_int_array.cpp
 

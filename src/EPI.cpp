@@ -4,10 +4,10 @@
 #include "EPI.h"
 #include "Headers/primitive.h"
 #include "Headers/arrays.h"
+#include "Headers/utilities.h"
 
 
 using namespace std;
-
 int main()
 {
 	EPI::ull x;
@@ -149,23 +149,38 @@ int main()
 
 	cout << endl;
 
-	vector<int> arr1(10);
-	cout << "Enter 10 numbers: ";
-
-	for( int i = 0;i < 10; i++)
+	
+	//cout << "Enter array of numbers: ";
+	//istream_iterator<int> begin(cin), end;
+	//vector<int> arr1(begin, end);
+	/*string arr_nums;
+	cout << "Enter array of numbers: ";
+	cin.ignore();
+	getline(cin, arr_nums);
+	cout << "Entered numbers are: "; 
+	cout << arr_nums;
+    stringstream stream(arr_nums);
+    cout << endl;
+    int n;
+	while(stream >> n)
 	{
-		cin >> arr1[i];
+    	cout<<n<<" ";
 	}
-
-	Arrays::DNFP(arr1, 4);
-	cout << "Sorted 10 numbers are: ";
-	for( int i = 0;i < 10; i++)
+	cout << endl;*/
+	
+	vector<int> arr1;
+	std::cout << "Enter the numbers to be sorted ";
+	Utilities::GetIntArray(arr1);
+	cout << "Enter pivot index (>= 0 and <= " << arr1.size()-1 << "): ";
+	int index;
+	cin >> index;
+	Arrays::DNFP(arr1, index);
+	cout << "Sorted array: ";
+	for( int i = 0;i < arr1.size(); i++)
 	{
 		cout << arr1[i] << " ";
 	}
 
 	cout << endl;
-
 	return 0;
 }
-

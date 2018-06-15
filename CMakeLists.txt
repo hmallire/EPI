@@ -4,6 +4,7 @@ project (EPI)
 
 set (SOURCE_FILES
 	src/EPI.cpp
+	src/Utilities/get_int_array.cpp
 	src/Primitive/closest_int_same_bit_count.cpp
 	src/Primitive/count_bits.cpp
 	src/Primitive/division.cpp

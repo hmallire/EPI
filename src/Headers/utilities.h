@@ -6,6 +6,7 @@
 #include <cmath>
 #include <iostream>
 #include <random>
+#include <limits>
 
 namespace Utilities
 {
@@ -16,6 +17,9 @@ namespace Utilities
 		a = b;
 		b = temp;
 	}
+
+	void GetIntArray(std::vector<int>& v);
+
 }
 
 #endif // !UTILITIES_H_

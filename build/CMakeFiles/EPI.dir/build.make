@@ -72,9 +72,32 @@ CMakeFiles/EPI.dir/src/EPI.cpp.o.provides: CMakeFiles/EPI.dir/src/EPI.cpp.o.requ
 
 CMakeFiles/EPI.dir/src/EPI.cpp.o.provides.build: CMakeFiles/EPI.dir/src/EPI.cpp.o
 
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o: CMakeFiles/EPI.dir/flags.make
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o: ../src/Utilities/get_int_array.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o -c /home/harsha/GITHUB/EPI/src/Utilities/get_int_array.cpp
+
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/harsha/GITHUB/EPI/src/Utilities/get_int_array.cpp > CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.i
+
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/harsha/GITHUB/EPI/src/Utilities/get_int_array.cpp -o CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.s
+
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.requires:
+.PHONY : CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.requires
+
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.provides: CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.provides.build
+.PHONY : CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.provides
+
+CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.provides.build: CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o
+
 CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o: ../src/Primitive/closest_int_same_bit_count.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/closest_int_same_bit_count.cpp
 
@@ -97,7 +120,7 @@ CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o.provides.build
 
 CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o: ../src/Primitive/count_bits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/count_bits.cpp
 
@@ -120,7 +143,7 @@ CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o.provides.build: CMakeFiles/EPI
 
 CMakeFiles/EPI.dir/src/Primitive/division.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/division.cpp.o: ../src/Primitive/division.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/division.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/division.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/division.cpp
 
@@ -143,7 +166,7 @@ CMakeFiles/EPI.dir/src/Primitive/division.cpp.o.provides.build: CMakeFiles/EPI.d
 
 CMakeFiles/EPI.dir/src/Primitive/is_palindromic.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/is_palindromic.cpp.o: ../src/Primitive/is_palindromic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/is_palindromic.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/is_palindromic.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/is_palindromic.cpp
 
@@ -166,7 +189,7 @@ CMakeFiles/EPI.dir/src/Primitive/is_palindromic.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/EPI.dir/src/Primitive/multiply.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/multiply.cpp.o: ../src/Primitive/multiply.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/multiply.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/multiply.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/multiply.cpp
 
@@ -189,7 +212,7 @@ CMakeFiles/EPI.dir/src/Primitive/multiply.cpp.o.provides.build: CMakeFiles/EPI.d
 
 CMakeFiles/EPI.dir/src/Primitive/orientation.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/orientation.cpp.o: ../src/Primitive/orientation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/orientation.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/orientation.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/orientation.cpp
 
@@ -212,7 +235,7 @@ CMakeFiles/EPI.dir/src/Primitive/orientation.cpp.o.provides.build: CMakeFiles/EP
 
 CMakeFiles/EPI.dir/src/Primitive/parity.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/parity.cpp.o: ../src/Primitive/parity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/parity.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/parity.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/parity.cpp
 
@@ -235,7 +258,7 @@ CMakeFiles/EPI.dir/src/Primitive/parity.cpp.o.provides.build: CMakeFiles/EPI.dir
 
 CMakeFiles/EPI.dir/src/Primitive/power.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/power.cpp.o: ../src/Primitive/power.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/power.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/power.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/power.cpp
 
@@ -258,7 +281,7 @@ CMakeFiles/EPI.dir/src/Primitive/power.cpp.o.provides.build: CMakeFiles/EPI.dir/
 
 CMakeFiles/EPI.dir/src/Primitive/rectangle_intersection.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/rectangle_intersection.cpp.o: ../src/Primitive/rectangle_intersection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/rectangle_intersection.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/rectangle_intersection.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/rectangle_intersection.cpp
 
@@ -281,7 +304,7 @@ CMakeFiles/EPI.dir/src/Primitive/rectangle_intersection.cpp.o.provides.build: CM
 
 CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o: ../src/Primitive/reverse_bits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/reverse_bits.cpp
 
@@ -304,7 +327,7 @@ CMakeFiles/EPI.dir/src/Primitive/reverse_bits.cpp.o.provides.build: CMakeFiles/E
 
 CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o: ../src/Primitive/reverse_digits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/reverse_digits.cpp
 
@@ -327,7 +350,7 @@ CMakeFiles/EPI.dir/src/Primitive/reverse_digits.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o: ../src/Primitive/swap_bits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/swap_bits.cpp
 
@@ -350,7 +373,7 @@ CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o.provides.build: CMakeFiles/EPI.
 
 CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o: ../src/Primitive/uniform_random.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o -c /home/harsha/GITHUB/EPI/src/Primitive/uniform_random.cpp
 
@@ -373,7 +396,7 @@ CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o: ../src/Arrays/even_odd.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o -c /home/harsha/GITHUB/EPI/src/Arrays/even_odd.cpp
 
@@ -396,7 +419,7 @@ CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o.provides.build: CMakeFiles/EPI.dir/
 
 CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o: CMakeFiles/EPI.dir/flags.make
 CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o: ../src/Arrays/dnfp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o -c /home/harsha/GITHUB/EPI/src/Arrays/dnfp.cpp
 
@@ -420,6 +443,7 @@ CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o.provides.build: CMakeFiles/EPI.dir/src/
 # Object files for target EPI
 EPI_OBJECTS = \
 "CMakeFiles/EPI.dir/src/EPI.cpp.o" \
+"CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o" \
 "CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o" \
 "CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o" \
 "CMakeFiles/EPI.dir/src/Primitive/division.cpp.o" \
@@ -440,6 +464,7 @@ EPI_OBJECTS = \
 EPI_EXTERNAL_OBJECTS =
 
 EPI: CMakeFiles/EPI.dir/src/EPI.cpp.o
+EPI: CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/division.cpp.o
@@ -465,6 +490,7 @@ CMakeFiles/EPI.dir/build: EPI
 .PHONY : CMakeFiles/EPI.dir/build
 
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/EPI.cpp.o.requires
+CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Utilities/get_int_array.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/division.cpp.o.requires

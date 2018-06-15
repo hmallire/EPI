@@ -5,6 +5,10 @@
 #include <vector>
 #include <cmath>
 #include <stdexcept>
+#include <iterator> //for std::istream_iterator
+#include <string>
+#include <sstream>
+
 
 namespace EPI 
 {

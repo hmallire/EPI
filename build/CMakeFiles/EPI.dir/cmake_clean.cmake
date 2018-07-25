@@ -16,6 +16,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o"
   "CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o"
   "CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o"
+  "CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o"
   "EPI.pdb"
   "EPI"
 )

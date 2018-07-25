@@ -11,6 +11,11 @@ CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o: ../src/EPI.h
 CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o: ../src/Headers/arrays.h
 CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o: ../src/Headers/utilities.h
 
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o: ../src/Arrays/naive_dnfp.cpp
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o: ../src/EPI.h
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o: ../src/Headers/arrays.h
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o: ../src/Headers/utilities.h
+
 CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/EPI.cpp
 CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/EPI.h
 CMakeFiles/EPI.dir/src/EPI.cpp.o: ../src/Headers/arrays.h

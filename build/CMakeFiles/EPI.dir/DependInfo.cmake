@@ -6,6 +6,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/harsha/GITHUB/EPI/src/Arrays/dnfp.cpp" "/home/harsha/GITHUB/EPI/build/CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o"
   "/home/harsha/GITHUB/EPI/src/Arrays/even_odd.cpp" "/home/harsha/GITHUB/EPI/build/CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o"
+  "/home/harsha/GITHUB/EPI/src/Arrays/naive_dnfp.cpp" "/home/harsha/GITHUB/EPI/build/CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o"
   "/home/harsha/GITHUB/EPI/src/EPI.cpp" "/home/harsha/GITHUB/EPI/build/CMakeFiles/EPI.dir/src/EPI.cpp.o"
   "/home/harsha/GITHUB/EPI/src/Primitive/closest_int_same_bit_count.cpp" "/home/harsha/GITHUB/EPI/build/CMakeFiles/EPI.dir/src/Primitive/closest_int_same_bit_count.cpp.o"
   "/home/harsha/GITHUB/EPI/src/Primitive/count_bits.cpp" "/home/harsha/GITHUB/EPI/build/CMakeFiles/EPI.dir/src/Primitive/count_bits.cpp.o"

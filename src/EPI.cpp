@@ -142,7 +142,7 @@ int main()
 	Arrays::EvenOdd(arr);
 	//cout << endl;
 	cout << "Ordered 10 numbers are: ";
-	for( int i = 0;i < 10; i++)
+	for(int i = 0;i < 10; i++)
 	{
 		cout << arr[i] << " ";
 	}
@@ -180,7 +180,15 @@ int main()
 	{
 		cout << arr1[i] << " ";
 	}
+	cout << endl;
 
+	std::vector<Arrays::Color> v = {Arrays::RED, Arrays::BLUE, Arrays::RED, Arrays::WHITE, Arrays::BLUE, Arrays::RED, Arrays::BLUE, Arrays::WHITE, Arrays::RED, Arrays::BLUE, Arrays::RED, Arrays::WHITE, Arrays::WHITE, Arrays::RED, Arrays::BLUE, Arrays::BLUE, Arrays::WHITE, Arrays::WHITE};
+	Arrays::NaiveDNFP(v);
+	cout << "Sorted Colors: ";
+	for( int i = 0;i < v.size(); i++)
+	{
+		cout << v[i] << " ";
+	}
 	cout << endl;
 	return 0;
 }

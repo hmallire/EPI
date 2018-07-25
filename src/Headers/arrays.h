@@ -10,10 +10,13 @@
 
 namespace Arrays
 {
+	typedef enum { RED, WHITE, BLUE } Color;
 
 	void EvenOdd(std::vector<int>& arr);
 
 	void DNFP(std::vector<int>& arr, const int index);
+
+	void NaiveDNFP(std::vector<Color>& v);
 
 } // namespace Arrays
 

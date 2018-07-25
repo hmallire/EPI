@@ -11,6 +11,11 @@ CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o
  /home/harsha/GITHUB/EPI/src/EPI.h
  /home/harsha/GITHUB/EPI/src/Headers/arrays.h
  /home/harsha/GITHUB/EPI/src/Headers/utilities.h
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o
+ /home/harsha/GITHUB/EPI/src/Arrays/naive_dnfp.cpp
+ /home/harsha/GITHUB/EPI/src/EPI.h
+ /home/harsha/GITHUB/EPI/src/Headers/arrays.h
+ /home/harsha/GITHUB/EPI/src/Headers/utilities.h
 CMakeFiles/EPI.dir/src/EPI.cpp.o
  /home/harsha/GITHUB/EPI/src/EPI.cpp
  /home/harsha/GITHUB/EPI/src/EPI.h

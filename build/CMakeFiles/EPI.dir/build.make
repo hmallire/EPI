@@ -440,6 +440,29 @@ CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o.provides: CMakeFiles/EPI.dir/src/Arrays
 
 CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o.provides.build: CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o
 
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o: CMakeFiles/EPI.dir/flags.make
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o: ../src/Arrays/naive_dnfp.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/harsha/GITHUB/EPI/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o -c /home/harsha/GITHUB/EPI/src/Arrays/naive_dnfp.cpp
+
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/harsha/GITHUB/EPI/src/Arrays/naive_dnfp.cpp > CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.i
+
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/harsha/GITHUB/EPI/src/Arrays/naive_dnfp.cpp -o CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.s
+
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.requires:
+.PHONY : CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.requires
+
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.provides: CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.provides.build
+.PHONY : CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.provides
+
+CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.provides.build: CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o
+
 # Object files for target EPI
 EPI_OBJECTS = \
 "CMakeFiles/EPI.dir/src/EPI.cpp.o" \
@@ -458,7 +481,8 @@ EPI_OBJECTS = \
 "CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o" \
 "CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o" \
 "CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o" \
-"CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o"
+"CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o" \
+"CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o"
 
 # External object files for target EPI
 EPI_EXTERNAL_OBJECTS =
@@ -480,6 +504,7 @@ EPI: CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o
 EPI: CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o
+EPI: CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o
 EPI: CMakeFiles/EPI.dir/build.make
 EPI: CMakeFiles/EPI.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable EPI"
@@ -506,6 +531,7 @@ CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/swap_bits.cpp.o.re
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Primitive/uniform_random.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.o.requires
 CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Arrays/dnfp.cpp.o.requires
+CMakeFiles/EPI.dir/requires: CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o.requires
 .PHONY : CMakeFiles/EPI.dir/requires
 
 CMakeFiles/EPI.dir/clean:

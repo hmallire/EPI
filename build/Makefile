@@ -159,6 +159,30 @@ src/Arrays/even_odd.cpp.s:
 	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/even_odd.cpp.s
 .PHONY : src/Arrays/even_odd.cpp.s
 
+src/Arrays/naive_dnfp.o: src/Arrays/naive_dnfp.cpp.o
+.PHONY : src/Arrays/naive_dnfp.o
+
+# target to build an object file
+src/Arrays/naive_dnfp.cpp.o:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.o
+.PHONY : src/Arrays/naive_dnfp.cpp.o
+
+src/Arrays/naive_dnfp.i: src/Arrays/naive_dnfp.cpp.i
+.PHONY : src/Arrays/naive_dnfp.i
+
+# target to preprocess a source file
+src/Arrays/naive_dnfp.cpp.i:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.i
+.PHONY : src/Arrays/naive_dnfp.cpp.i
+
+src/Arrays/naive_dnfp.s: src/Arrays/naive_dnfp.cpp.s
+.PHONY : src/Arrays/naive_dnfp.s
+
+# target to generate assembly for a file
+src/Arrays/naive_dnfp.cpp.s:
+	$(MAKE) -f CMakeFiles/EPI.dir/build.make CMakeFiles/EPI.dir/src/Arrays/naive_dnfp.cpp.s
+.PHONY : src/Arrays/naive_dnfp.cpp.s
+
 src/EPI.o: src/EPI.cpp.o
 .PHONY : src/EPI.o
 
@@ -534,6 +558,9 @@ help:
 	@echo "... src/Arrays/even_odd.o"
 	@echo "... src/Arrays/even_odd.i"
 	@echo "... src/Arrays/even_odd.s"
+	@echo "... src/Arrays/naive_dnfp.o"
+	@echo "... src/Arrays/naive_dnfp.i"
+	@echo "... src/Arrays/naive_dnfp.s"
 	@echo "... src/EPI.o"
 	@echo "... src/EPI.i"
 	@echo "... src/EPI.s"

@@ -11,6 +11,8 @@ using namespace std;
 int main()
 {
     // display list of functions available
+
+
     // Implement a switch case which allows us to select and run a given function with given inputs
 	EPI::ull x;
 	cout << "Enter a number: ";
@@ -201,5 +203,24 @@ int main()
 		cout << v1[i] << " ";
 	}
 	cout << endl;
+
+    // Buying and selling a stock for max profit
+
+    double profit = 0;
+    cout << "Enter size of array followed by elements of array in below format: " << endl;
+    cout << "n" << endl;
+    cout << "A1 A2 A3 ... An" << endl;
+    int price_arr_size = 0;
+    cin >> price_arr_size;
+    std::vector<double> prices;
+    for (int i = 0; i < price_arr_size; i++)
+    {
+        double temp_price;
+        cin >> temp_price;
+        prices.push_back(temp_price);
+    }
+    Arrays::BuyAndSellStockOnce(prices, profit);
+    cout << "The maximum profit that can be obtained is: " << profit << endl;
+
 	return 0;
 }

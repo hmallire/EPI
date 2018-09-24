@@ -37,6 +37,7 @@ namespace Arrays
 	}
     
     // 5:47 -- Algo start, 6:12 -- Code start
+    // Implement the last variant in EPI as well when time permits (for sure)
     void DNFPSinglePass(std::vector<Color>& A, const int index)
     {
         Arrays::Color pivot = A[index];
@@ -58,4 +59,4 @@ namespace Arrays
         }
     }
     // 9:13 -- Code end
-}
+} // namespace Arrays

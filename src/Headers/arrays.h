@@ -20,6 +20,8 @@ namespace Arrays
 
     void DNFPSinglePass(std::vector<Color>& A, const int index);
 
+    void BuyAndSellStockOnce(const std::vector<double>& prices, double& profit);
+
 } // namespace Arrays
 
 #endif // !ARRAYS_H_

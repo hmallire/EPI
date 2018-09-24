@@ -2,6 +2,7 @@
 #define UTILITIES_H_
 
 #include "../EPI.h"
+#include "arrays.h"
 
 #include <cmath>
 #include <iostream>

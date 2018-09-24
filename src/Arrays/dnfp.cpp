@@ -35,4 +35,27 @@ namespace Arrays
 			}
 		}
 	}
+    
+    // 5:47 -- Algo start, 6:12 -- Code start
+    void DNFPSinglePass(std::vector<Color>& A, const int index)
+    {
+        Arrays::Color pivot = A[index];
+        int smaller = 0, larger = A.size(), equal = 0;
+        while(equal < larger)
+        {
+            if(A[equal] < pivot)
+            {
+                Utilities::Swap(A[smaller++], A[equal++]);
+            }
+            else if(A[equal] == pivot)
+            {
+                equal++;
+            }
+            else
+            {
+                Utilities::Swap(A[equal], A[--larger]);
+            }
+        }
+    }
+    // 9:13 -- Code end
 }

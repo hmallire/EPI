@@ -18,6 +18,8 @@ namespace Arrays
 
 	void NaiveDNFP(std::vector<Color>& v);
 
+    void DNFPSinglePass(std::vector<Color>& A, const int index);
+
 } // namespace Arrays
 
 #endif // !ARRAYS_H_

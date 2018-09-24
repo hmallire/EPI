@@ -10,6 +10,8 @@
 using namespace std;
 int main()
 {
+    // display list of functions available
+    // Implement a switch case which allows us to select and run a given function with given inputs
 	EPI::ull x;
 	cout << "Enter a number: ";
 	cin >> x;
@@ -188,6 +190,15 @@ int main()
 	for( int i = 0;i < v.size(); i++)
 	{
 		cout << v[i] << " ";
+	}
+	cout << endl;
+
+    std::vector<Arrays::Color> v1 = {Arrays::RED, Arrays::BLUE, Arrays::RED, Arrays::WHITE, Arrays::BLUE, Arrays::RED, Arrays::BLUE, Arrays::WHITE, Arrays::RED, Arrays::BLUE, Arrays::RED, Arrays::WHITE, Arrays::WHITE, Arrays::RED, Arrays::BLUE, Arrays::BLUE, Arrays::WHITE, Arrays::WHITE};
+    Arrays::DNFPSinglePass(v1, 3);
+    cout<<"Colors sorted using DNFP: ";
+    for( int i = 0;i < v1.size(); i++)
+	{
+		cout << v1[i] << " ";
 	}
 	cout << endl;
 	return 0;
